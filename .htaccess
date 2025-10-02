@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /tipiktracho
+    RewriteRule ^tipiktracho/index\.html$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /tipiktracho/index.html [L]
+
+    <FilesMatch "\.(js|css|png|jpg|jpeg|gif|ico|svg|ttf|woff|woff2|eot|otf|map)$">
+        Header set Access-Control-Allow-Origin "*"
+    </FilesMatch>
+</IfModule>
