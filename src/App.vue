@@ -15,6 +15,13 @@
   import featured5 from './assets/png/featured/featured-5.png';
   import featured6 from './assets/png/featured/featured-6.png';
   import featured7 from './assets/png/featured/featured-7.png';
+  import featured8 from './assets/png/featured/featured-8.png';
+  import featured9 from './assets/png/featured/featured-9.png';
+  import featured10 from './assets/png/featured/featured-10.png';
+  import featured11 from './assets/png/featured/featured-11.png';
+  import featured12 from './assets/png/featured/featured-12.png';
+  import featured13 from './assets/png/featured/featured-13.png';
+  import featured14 from './assets/png/featured/featured-14.png';
 
   import cloudFontSource from './assets/font/Cloud.otf';
 
@@ -37,7 +44,7 @@
   ];
 
   const FeaturedList: string[] = [
-    featured1, featured2, featured3, featured4, featured5, featured6, featured7
+    featured1, featured2, featured3, featured4, featured5, featured6, featured7, featured8, featured9, featured10, featured11, featured12, featured13, featured14
   ];
 
   // --------------------------------------------------------------------------
@@ -425,6 +432,14 @@
               <option :value = 4>Costillitas</option>
               <option :value = 5>Pollo al Horno</option>
               <option :value = 6>Marmahón</option>
+
+              <option :value = 7>Camarones</option>
+              <option :value = 8>Dedos de Pollo</option>
+              <option :value = 9>Hamburguesa</option>
+              <option :value = 10>Zamorano</option>
+              <option :value = 11>Café</option>
+              <option :value = 12>Tres Leches</option>
+              <option :value = 13>Cheescake</option>
             </select>
           </div>
         </div>
